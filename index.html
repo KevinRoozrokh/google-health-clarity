@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Clarity</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Health Clarity is an intelligent medical billing assistant providing instant transparency on medical codes, fair price ranges, and insurance carrier breakdowns." />
+    <meta name="keywords" content="medical billing, CPT codes, fair price, healthcare transparency, Health Clarity, insurance rates, Kevin Roozrokh" />
+    <meta name="author" content="Kevin Roozrokh" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://clarity.kevinroozrokh.com/" />
+    <meta property="og:title" content="Health Clarity - Medical Price Transparency" />
+    <meta property="og:description" content="Check fair prices for medical procedures, look up codes, and analyze bills instantly with AI." />
+    <meta property="og:image" content="https://clarity.kevinroozrokh.com/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://clarity.kevinroozrokh.com/" />
+    <meta property="twitter:title" content="Health Clarity - Medical Price Transparency" />
+    <meta property="twitter:description" content="Check fair prices for medical procedures, look up codes, and analyze bills instantly with AI." />
+    <meta property="twitter:image" content="https://clarity.kevinroozrokh.com/og-image.jpg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Google Sans"', 'Roboto', 'sans-serif'],
+            },
+            colors: {
+              google: {
+                blue: '#1a73e8',
+                red: '#ea4335',
+                yellow: '#fbbc04',
+                green: '#34a853',
+                gray: '#f1f3f4',
+                text: '#202124',
+                dark: {
+                  bg: '#0f172a', /* Slate 900 - Dark Blue Background */
+                  surface: '#1e293b', /* Slate 800 - Lighter Blue Surface */
+                  border: '#334155', /* Slate 700 - Blue-tinted Border */
+                  text: '#f1f5f9' /* Slate 100 - Text */
+                }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #f3f4f6; /* Gray 100 for Light Mode */
+        color: #1f2937;
+      }
+      .dark body {
+        background-color: #0f172a; /* Slate 900 for Dark Mode */
+        color: #f1f5f9;
+      }
+      /* Custom scrollbar for chat */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
